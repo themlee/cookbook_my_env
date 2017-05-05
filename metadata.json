@@ -1,0 +1,31 @@
+{
+  "name": "my_env",
+  "version": "1.0.0",
+  "description": "Installs my env",
+  "long_description": "Installs my enviroment",
+  "maintainer": "Marco Lehmann",
+  "maintainer_email": "lehmann@locity.de",
+  "license": "Apache 2.0",
+  "platforms": {
+    "debian": ">= 0.0.0",
+    "ubuntu": ">= 0.0.0"
+  },
+  "dependencies": {
+    "build-essential": ">= 0.0.0",
+    "zsh": ">= 0.0.0",
+    "oh_my_zsh": ">= 0.0.0",
+    "tmux": ">= 0.0.0",
+    "git": ">= 0.0.0",
+    "tmux": ">= 0.0.0"
+  },
+  "recommendations": {},
+  "suggestions": {},
+  "conflicting": {},
+  "providing": {},
+  "replacing": {},
+  "attributes": {},
+  "groupings": {},
+  "recipes": {
+    "my_env": "Installs my env"
+  }
+}
