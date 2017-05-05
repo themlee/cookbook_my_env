@@ -1,0 +1,14 @@
+[user]
+	name = <%= node['my_env']['git']['name'] %>
+  email = <%= node['my_env']['git']['email'] %>
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+  ci = commit
+  st = status
+  co = checkout
+  br = branch
+[credential]
+  helper = cache --timeout=36000

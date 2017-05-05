@@ -1,0 +1,3 @@
+alias runt='rvmsudo thin start -p 80'
+alias run='rvmsudo rails s -p 80 -b 0.0.0.0'
+alias tm='tmux attach -t base || tmux new -s base'
